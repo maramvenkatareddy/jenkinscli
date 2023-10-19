@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+    stages {
+        stage('clone the code 0f salore') {
+            steps {
+                sh 'mkdir venkat'
+            }
+        }
+    }
+    
+}
