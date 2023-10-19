@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('clone the code 0f salore') {
             steps {
-                sh 'mkdir venkat'
+                sh 'mkdir venkat1'
             }
         }
     }
